@@ -21,6 +21,6 @@ download files. Users can also create shared folders and invite others to join, 
 seamless collaboration across teams and groups.
 
 
-#1 System Architecture
+## System Architecture
 
 ![SystemArchitecture](https://github.com/joaofam/FILEFLO/assets/57375890/5da18856-c217-4e27-857a-fda1b1b0ee2f)
