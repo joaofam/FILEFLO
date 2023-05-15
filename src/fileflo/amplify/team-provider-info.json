@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-filefloapi-dev-135219-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970947090609:role/amplify-filefloapi-dev-135219-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970947090609:role/amplify-filefloapi-dev-135219-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-filefloapi-dev-135219-deployment",
+      "UnauthRoleName": "amplify-filefloapi-dev-135219-unauthRole",
+      "StackName": "amplify-filefloapi-dev-135219",
+      "StackId": "arn:aws:cloudformation:eu-west-1:970947090609:stack/amplify-filefloapi-dev-135219/749f82b0-b901-11ed-a5e9-02137142cdd1",
+      "AmplifyAppId": "d2oabcqzrnio71"
+    },
+    "categories": {
+      "api": {
+        "filefloapi": {},
+        "AdminQueries": {}
+      },
+      "auth": {
+        "filefloapi038dbd6c": {}
+      },
+      "function": {
+        "AdminQueriescde76dd6": {
+          "deploymentBucketName": "amplify-filefloapi-dev-135219-deployment",
+          "s3Key": "amplify-builds/AdminQueriescde76dd6-6e4c68754e5771394764-build.zip"
+        }
+      }
+    }
+  }
+}

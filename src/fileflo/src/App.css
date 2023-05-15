@@ -1,0 +1,54 @@
+/* Set the basic styling for the entire app */
+.App {
+  width: 100%;
+  max-width: 100%;
+  font-family: 'Source Sans Pro', monospace;
+  color: white;
+  font-weight: 400; /* Changed from "12px" to a proper font-weight value */
+}
+
+/* app logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* app logo animation */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* app header */
+.App-header {
+  background-color: #1b51bd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* logo box */
+.logo-box {
+  margin-left: -150px;
+}
+
+/* position of the pages */
+.Pages {
+  margin-right: 500px;
+}
+
+/* logo title */
+.logo-title {
+  width: 50%;
+  overflow: hidden; /* Changed from "none" to "hidden" to hide overflowing content */
+}
+
+/* font-size for the MuiButton root */
+.css-1el0iap-MuiButtonBase-root-MuiButton-root {
+  font-size: 20px !important;
+}

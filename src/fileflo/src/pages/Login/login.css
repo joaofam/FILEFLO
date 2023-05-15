@@ -1,0 +1,116 @@
+.logo {
+  width: 213px;
+  height: 36px;
+  margin: 30px auto;
+}
+
+.login-block {
+  height: '100%';
+  width: 400px;
+  padding: 20px;
+  background: #333333;
+  border-radius: 5px;
+  border-top: 5px solid #9933ff;
+  margin: 0 auto;
+  /* margin-left: -46%; */
+  /* background-color: plum; */
+}
+
+.login-block h1 {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.login-block input {
+  width: 100%;
+  height: 42px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: Montserrat;
+  padding: 0 20px 0 50px;
+  outline: none;
+  color: black;
+  background-color: #bebebe;
+}
+
+.login-block input#username {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#password {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input:active,
+.login-block input:focus {
+  border: 1px solid #9933ff;
+}
+
+.login-block button {
+  width: 100%;
+  height: 40px;
+  background: #404040;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #404040;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Montserrat;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-block button:hover {
+  background: #9933ff;
+}
+
+.label {
+  font-size: 16px;
+  font-family: space-grotesk;
+  color: #bebebe;
+}
+
+.login {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* .errorResponse {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+} */
+
+.input-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  font-size: 4px;
+  height: 22px;
+  width: 16%;
+  bottom: 30px;
+  color: gray;
+}

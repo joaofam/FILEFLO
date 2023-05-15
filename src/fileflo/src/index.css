@@ -1,0 +1,51 @@
+/* body */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #262626;
+}
+
+/* labels */
+label {
+  color: white;
+  font-family: space-grotesk, monospace;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+/* code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* header and adjust layout */
+.header {
+  margin: 0em 0 2em;
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 1px solid;
+}
+
+/* header links */
+.header a {
+  margin: 0 1em 0 1em;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+/* content area and adjust layout */
+.content {
+  margin-left: 4em;
+  margin-right: 4em;
+  font-size: 1.5em;
+  padding-top: 30px;
+}
+
+/* message */
+.message {
+  color: red;
+  font-size: 100%;
+  margin-top: 0px;
+}

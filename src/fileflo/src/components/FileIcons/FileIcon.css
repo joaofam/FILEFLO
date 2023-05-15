@@ -1,0 +1,7 @@
+/* FileIcon extension */
+.ext-icon {
+  position: absolute;
+  font-size: 12px;
+  width: 10%;
+  height: 10%;
+}

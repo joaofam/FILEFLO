@@ -1,0 +1,166 @@
+/* Modal */
+.modal-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateZ(0);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  background-color: #262626;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (min-width: 500px) {
+  /* Center the Modal! */
+  .modal-area {
+    left: 50%;
+    top: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    max-width: 30em;
+    max-height: calc(100% - 1em);
+  }
+}
+
+._modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  line-height: 1;
+  background: #4c4c4c;
+  border: 0;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+._modal-close-icon {
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  stroke: black;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.modal-body {
+  padding-top: 0.25em;
+}
+
+/* Hide Visual */
+._hide-visual {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+/* Scroll Lock */
+.scroll-lock {
+  overflow: hidden;
+  margin-right: 17px;
+}
+
+/* Container */
+.container {
+  margin-bottom: 55px;
+}
+
+/* Delete */
+.delete {
+  width: 100%;
+  height: 100px;
+}
+
+/* Upload Container */
+.upload-container {
+  width: 75%;
+  margin-left: 25%;
+}
+
+/* Folder Container */
+.folder-container {
+  position: absolute;
+  width: 20%;
+  padding-left: 4%;
+}
+
+/* Folder List */
+.folder-list {
+  padding-top: 90px;
+}
+
+/* Folder Name */
+.folder-name {
+}
+
+/* Files */
+.files {
+  position: relative;
+}
+
+/* Card */
+.card {
+  width: 20%;
+  height: 26%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 50%;
+  }
+}
+
+/* Search File */
+.search-file {
+  position: relative;
+  margin-left: 29%;
+}
+
+/* MuiMenu Styling */
+.MuiMenu-root ul {
+  background-color: #2f3031;
+  color: white;
+  border-radius: 0%;
+}
+
+.css-aqvv6p-MuiList-root-MuiMenu-list {
+  background-color: #2f3031;
+}
+
+.css-10hburv-MuiTypography-root {
+  font-family: space-grotesk;
+}
+
+.css-1v5gfx3-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: space-grotesk monospace;
+}
+
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  background-color: #2f3031 !important;
+  min-height: 10% !important;
+}

@@ -1,0 +1,390 @@
+.logo {
+  width: 213px;
+  height: 36px;
+  margin: 30px auto;
+}
+
+.form-block {
+  width: 320px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border-top: 5px solid #9933ff;
+  margin: 0 auto;
+  background-color: #333333;
+  transition: background-color 0.4s;
+  box-shadow: 0px 2px 4px #404040;
+}
+a .form-block h1 {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.form-block input {
+  width: 100%;
+  height: 42px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: Montserrat;
+  padding: 0 20px 0 50px;
+  outline: none;
+  color: black;
+  background-color: #bebebe;
+}
+
+.form-block input#username {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.form-block input#username:focus {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.form-block input#password {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.form-block input#password:focus {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.form-block input:active,
+.form-block input:focus {
+  border: 1px solid #9933ff;
+}
+
+.form-block button:hover {
+  background: #9933ff;
+  opacity: 90%;
+}
+
+.label {
+  font-size: 15px;
+  color: gray;
+}
+
+.form {
+  text-align: center;
+  font-size: 20px;
+}
+
+.errorResponse {
+  color: #ff33ff;
+  font-size: 15px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  font-size: 4px;
+  height: 22px;
+  width: 16%;
+  bottom: 30px;
+  color: gray;
+}
+
+.submit-button {
+  width: 100%;
+  height: 40px;
+  background: #404040;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #404040;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Montserrat;
+  outline: none;
+  cursor: pointer;
+}
+
+.label-optional {
+  font-family: space-grotesk;
+  color: gray;
+}
+
+/* FILEUPLOAD CSS */
+
+.file-card {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #595959;
+  background-color: #4c4c4c;
+  /* min-width: 380px; */
+  min-height: 158px;
+  border-radius: 10px;
+  padding-top: 24px;
+}
+
+.file-inputs {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.upload-input {
+  position: relative;
+  text-align: right;
+  opacity: 0;
+  z-index: 2;
+  cursor: pointer;
+  height: 46px;
+  max-width: 200px;
+}
+
+.upload-button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #b36bff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 1em;
+  transition: background-color 0.4s;
+  box-shadow: 0px 4px 8px rgba(149, 157, 165, 0.5);
+}
+.upload-button2 {
+  position: absolute;
+  /* top: 0px;
+    left: 0px; */
+  min-width: 7.5vw;
+  max-width: 15vw;
+  height: 4%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #9933ff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 1em;
+  transition: background-color 0.4s;
+  box-shadow: 0px 1px 6px rgba(149, 157, 165, 0.5);
+}
+
+/* Media queries for responsive button width */
+@media only screen and (max-width: 768px) {
+  .upload-button2 {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .upload-button2 {
+    width: 40%;
+  }
+}
+
+.folder-button {
+  position: relative;
+  margin-top: 7.5px;
+  margin-bottom: 30px;
+  /* top: 0px;
+    left: 0px; */
+  width: 200px;
+  max-width: 15vw;
+  height: 50px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #9933ff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 1em;
+  transition: background-color 0.4s;
+  box-shadow: 0px 1px 6px rgba(149, 157, 165, 0.5);
+}
+
+i {
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.4em;
+  background-color: #fff;
+  color: #f55e30;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.8em;
+  font-size: 0.8em;
+  padding-right: 1px;
+  padding-left: 14.15px;
+}
+
+.main {
+  /* font-weight: bold; */
+  margin-bottom: 0em;
+  font-family: space-grotesk, monospace;
+  color: white;
+}
+
+.info {
+  font-size: 0.8rem;
+  font-family: space-grotesk, monospace;
+  color: #bebebe;
+}
+
+/* FILELIST */
+.file-item {
+  list-style: none;
+  margin: 1.2em 0;
+  /* background-color: #595959; */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 1.2em 1.5em;
+}
+
+svg {
+  color: #b36bff;
+}
+svg:first-child {
+  font-size: 1.2em;
+  margin-right: 0.8em;
+  width: 10%;
+}
+
+.p {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.actions {
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+.fa-spinner {
+  font-size: 1.2em;
+}
+
+.checkbox {
+  position: relative;
+  right: -50px;
+}
+
+.text-content {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.check-container {
+  position: relative;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+.Key {
+  position: absolute;
+  bottom: 12px;
+  color: gray;
+  font-size: 4px;
+  height: 22px;
+  width: 16%;
+  right: 154px;
+}
+
+.passphrase {
+  position: absolute;
+  bottom: 31px;
+  color: gray;
+  font-size: 4px;
+  height: 22px;
+  width: 16%;
+  right: 228px;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 12px;
+  color: gray;
+  font-size: 4px;
+  height: 22px;
+  width: 16%;
+  right: -61px;
+}
+
+.MuiFormControlLabel-label {
+  color: red;
+  font-weight: bold;
+  font-size: 4px;
+}
+
+.form-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.file-list {
+  margin-right: 12px;
+  margin-left: 12px;
+  background-color: #595959;
+  border-radius: 12px;
+}
+
+.upload-icon {
+  padding-right: 12px;
+}
+
+.css-6azdc1-MuiCircularProgress-root {
+  display: contents !important;
+  color: '#9933ff';
+}
+
+.errorResponsePassphrase {
+  color: #b36bff;
+  font-size: 14px;
+  padding-top: 12px;
+  /* padding-left: 25%; */
+  text-align: center;
+}
+
+.togglePassword {
+  position: absolute;
+  margin-left: -32px;
+  margin-top: 9px;
+  cursor: pointer;
+  color: gray;
+}

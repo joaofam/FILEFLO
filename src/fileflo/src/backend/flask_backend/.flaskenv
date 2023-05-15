@@ -1,0 +1,2 @@
+FLASK_APP=AES_encrypt
+FLASK_ENV=development

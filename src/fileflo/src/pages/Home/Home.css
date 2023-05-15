@@ -1,0 +1,33 @@
+/* Logo styling for the home page form */
+.form-logo-home {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 45px;
+  height: 45px;
+}
+
+/* Styling for the screenshot section */
+.screenshots {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+/* Background styling for individual items */
+.item-background {
+  background-color: #2f3031 !important;
+  border: 2px solid #333333;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Text styling for individual items */
+.item-text {
+  font-family: space-grotesk, monospace !important;
+  color: #bebebe;
+  font-size: 18px !important;
+  padding-top: 10px;
+}
