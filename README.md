@@ -1,30 +1,26 @@
-# CA400 template repo
+# FILEFLO
 
-This is a template for CA400 projects.
+![fileflo poster](https://github.com/joaofam/FILEFLO/assets/57375890/fd71f163-69c5-4cc9-b7f6-db1e85ffb378)
 
-## 1. Create your repo
+Fileflo is a user-friendly file-sharing platform designed to provide a secure, decentralised
+alternative to traditional file-sharing services. At its core, Fileflo leverages the InterPlanetary
+File System (IPFS) to enable peer-to-peer file-sharing across a network of distributed nodes.
+By utilising IPFS, Fileflo ensures that files are not stored on a single centralised server, but
+rather across a network of nodes, making them highly available and resilient. In addition to
+the distributed storage of files, Fileflo also prioritises user privacy and data security by
+encrypting files with both symmetric and asymmetric encryption algorithms, ensuring that
+only the owner of the file, or those they choose to share it with, have access to its contents.
+To ensure that files can be easily found and downloaded, Fileflo uploads the metadata of
+each file to an Ethereum blockchain. This metadata includes the file's IPFS hash and other
+relevant information, which is then used during the download process to locate the file on the
+IPFS network and download it. By storing this metadata on the blockchain, Fileflo can
+guarantee that each file's provenance and history can be traced back to its original owner,
+and that any attempts to modify or delete the file will be recorded on the blockchain. Fileflo
+also features an intuitive user interface that allows users to easily upload, share, and
+download files. Users can also create shared folders and invite others to join, enabling
+seamless collaboration across teams and groups.
 
-One person from your project team should fork this repo, then add other teammates as project members on GitLab.
 
-## 2. Name your repo appropriately
+#1 System Architecture
 
-The name of your project must be of the form `2022-ca400-XXXXXXX`, where "`XXXXXXX`"
-should be replaced with your usernames (e.g. `2022-ca400-sblott-pclarke`).
-**Note** that the year should be set as appropriate to your year of study. For example, in the
-2022/2023 academic year this would change to '2023-ca400-sblott-pclarke'), 
-in the 2023/2024 academic year this would change to '2024-ca400-sblott-pclarke'), etc. 
-
-It is the *name of your repo* which matters (not the name of your project).
-
-You can change the name of your repo on GitLab under:
-
-- Settings / General / Advanced / Change path
-
-It looks like this:
-
-![change-repo-path](./res/repo-change-path.png "Change repo path.")
-
-You should replace all of this file with a README describing your own project.
-
-## Additional resources
-
+![SystemArchitecture](https://github.com/joaofam/FILEFLO/assets/57375890/5da18856-c217-4e27-857a-fda1b1b0ee2f)
