@@ -10,6 +10,7 @@ rather across a network of nodes, making them highly available and resilient. In
 the distributed storage of files, Fileflo also prioritises user privacy and data security by
 encrypting files with both symmetric and asymmetric encryption algorithms, ensuring that
 only the owner of the file, or those they choose to share it with, have access to its contents.
+
 To ensure that files can be easily found and downloaded, Fileflo uploads the metadata of
 each file to an Ethereum blockchain. This metadata includes the file's IPFS hash and other
 relevant information, which is then used during the download process to locate the file on the
